@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+	<title>Portal</title>
+	<link href="css/style.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="topo">
+		<div class="topoint">
+			<div class="topoleft">
+				<ul>
+					<li><a href="./" class="ativo">Home</a></li>
+					<li><a href="quem-somos">Quem somos</a></li>
+					<li><a href="anucie-aqui">Anuncie Aqui</a></li>
+					<li><a href="contato">Contato</a></li>
+				</ul>
+			</div>
+			<div class="toporigth">
+				<input class="lupa" type="image" src="images/lp.png"border="0" width="26px" height="26px"/>
+				<input type="text" name="busca"  class="topobusca" placeholder="Busca..." />
+				
+				<a href=""><img src="images/yt.png" border="0" width="26px" height="26px"></a>
+				<a href=""><img src="images/twt.png" border="0" width="26px" height="26px"></a>
+				<a href=""><img src="images/fcb.png" border="0" width="26px" height="26px"></a>
+				<a href=""><img src="images/gp.png" border="0" width="26px" height="26px"></a>
+				<a href=""><img src="images/rss.png" border="0" width="26px" height="26px"></a>
+				
+			</div>
+		</div>
+	</div>
+	<div class="topo2">
+		<div class="topo2int">
+			<div class="logo">
+				<img src="images/Portal_logo.png"  border="0" width="230">
+			</div>
+			<div class="banner">
+				<img src="images/banner1.jpg" border="0" width="645" height="50">
+			</div>
+			
+		</div>
+	</div>
+	<div class="menu">
+		<div class="menuint">
+			<img src="images/hbg_menu.png" alt="" border="0" width="40" height="40"  class="menumobile" onclick="toggleMenu()">
+			<ul id="menu">
+				<li><a href="#" class="ativo">Home</a></li>
+				<li><a href="#">Informações</a></li>
+				<li><a href="#">Entretenimento</a>
+					<img src="images/arrowdown.png" border="0" width="15">
+					<div class="submenu">
+						<a href="./"><div class="submenuitem">Sub Menu 1</div></a>
+						<a href="./"><div class="submenuitem">Sub Menu 2</div></a>
+						<a href="./"><div class="submenuitem">Sub Menu 3</div></a>
+						<a href="./"><div class="submenuitem">Sub Menu 4</div></a>
+					</div>
+				</li>
+				<!--fim entretenimento-->
+				<li><a href="#">modelos</a>
+					<img src="images/arrowdown.png" border="0" width="15">
+					<div class="submenu">
+						<a href="./"><div class="submenuitem">Sub Menu 1</div></a>
+						<a href="./"><div class="submenuitem">Sub Menu 2</div></a>
+						
+					</div>
+				</li>
+				<!--fim esportes-->
+				<li><a href="#">Geral</a></li>
+				<li><a href="#">Onde comprar</a>
+					<img src="images/arrowdown.png" border="0" width="15">
+					<div class="submenu">
+						<a href="./"><div class="submenuitem">Sub Menu 1</div></a>
+						<a href="./"><div class="submenuitem">Sub Menu 2</div></a>
+						<a href="./"><div class="submenuitem">Sub Menu 3</div></a>
+						
+					</div>
+				</li>
+				<!--fim  Noticias-->
+				<li><a href="#">imagens</a></li>
+				<li><a href="#">Vídeos</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ultimasnoticias">
+		<div class="ultimasnoticiasint">
+			<div class="ultimasnoticiasarea">
+				<div class="ultnoticiastitulo">ULTIMAS NOTICIAS</div>
+				<div class="ultnoticiasnoticias">Cachorro morre atropelado por cachorro!</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="containerint">
+			<div class="leftside">
+				<div class="slideshow" id="slideshow">
+					<div class="slideshowbolinhas">
+						<div class="bolinha" onclick="mudarSlide(0)"></div>
+						<div class="bolinha" onclick="mudarSlide(1)"></div>
+						<div class="bolinha" onclick="mudarSlide(2)"></div>
+						<div class="bolinha" onclick="mudarSlide(3)"></div>
+					</div>
+					<div class="slideshowarea">
+						<div class="slide" style="background-image:url('images/wpp.jpg')">
+							<div class="slideinfo">
+								<div class="slideinfo_titulo">Titulo um</div>
+								<div class="slideinfo_subtitulo">Sub titulo 1 com letra menor</div>
+							</div>
+						</div>
+						<div class="slide" style="background-image:url('images/wpp1.jpg')">
+							<div class="slideinfo">
+								<div class="slideinfo_titulo">Titulo um</div>
+								<div class="slideinfo_subtitulo">Sub titulo 1 com letra menor</div>
+							</div>
+						</div><div class="slide" style="background-image:url('images/wpp2.jpg')">
+							<div class="slideinfo">
+								<div class="slideinfo_titulo">Titulo um</div>
+								<div class="slideinfo_subtitulo">Sub titulo 1 com letra menor</div>
+							</div>
+						</div><div class="slide" style="background-image:url('images/wpp3.jpg')">
+							<div class="slideinfo">
+								<div class="slideinfo_titulo">Titulo um</div>
+								<div class="slideinfo_subtitulo">Sub titulo 1 com letra menor</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<!--******************************WIDIGET CONTEUDO INICIO *******************************************-->
+				<div class="widget">
+					<div class="widget_titulo">NOTÍCIAS</div>
+					<div class="widget_conteudo">
+						<div class="noticaarea1">
+							<!--------------------------Noticia GRande ------------------------------------------->
+							<div class="noticiaitem noticiabig">
+								<div class="noticiaimg">
+									<img src="images/imagebig.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Polícia Militar prende quadrilha com drogas e metralhadora na zona norte de Teresina</div>
+								<div class="noticiainfo">50Anos atras      Deixe um comentario</div>
+							</div>
+						</div>
+						<div class="noticaarea2">
+							<!-- ***********1ª NOTICIA *************************************-->
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="images/noticias1.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Manifestantes pró e contra pacto migratório se enfrentam no Canadá</div>
+								<div class="noticiainfo">8/12/18 - 21h40 - Atualizado em 08/12/18 - 22h54</div>
+							</div>
+							<!-- ***********FIM 1ª NOTICIA **********************************-->
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="images/noticias2.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Amor, perda e superação - Conheça história da youtuber Gle Marquez</div>
+								<div class="noticiainfo">Modelo e youtuber Gle Marquez</div>
+							</div>
+							<!-- ***********FIM 2ª NOTICIA **********************************-->
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="images/noticias3.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Delicados, cristais são ótimas apostas para decoração de fim de ano</div>
+								<div class="noticiainfo">Foto: DINO / DINO</div>
+							</div>
+							<!-- ***********FIM 3ª NOTICIA **********************************-->
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="images/noticias4.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Mega-Sena acumula e pagará R$ 36 milhões no próximo sorteio</div>
+								<div class="noticiainfo">Confira as dezenas sorteadas</div>
+							</div>
+							<!-- ***********FIM 3ª NOTICIA **********************************-->
+						</div>
+						<div style="clear:both"></div> 
+					</div>
+				</div>
+				<!--******************************FIM WIDIGET CONTEUDO NOTICIA *********************************************-->
+				<!---******************************INICIO WIDGET ESPORTES*************************************************-->
+				<div class="widget">
+					<div class="widget_titulo">ESPORTES</div>
+					<div class="widget_conteudo">
+						<div class="noticaarea1">
+							<!--------------------------Noticia GRande ------------------------------------------->
+							<div class="noticiaitem noticiabig">
+								<div class="noticiaimg">
+									<img src="images/imagebig2.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Torcidas do Boca e do River invadem Madri e geram mais admiração do que medo</div>
+								<div class="noticiainfo">3 Horas atrás em - Libertadores</div>
+							</div>
+						</div>
+						<div class="noticaarea2">
+							<!-- ***********1ª NOTICIA *************************************-->
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="images/esportes1.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Jordi Alba defende Messi e ataca Bola de Ouro: "É uma mentira"</div>
+								<div class="noticiainfo">Jordi Alba (à direita) </div>
+							</div>
+							<!-- ***********FIM 1ª NOTICIA **********************************-->
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="images/esportes2.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Mourinho diz que Pogba 'mostrará como é bom' em partida contra o Valencia</div>
+								<div class="noticiainfo">Paul Pogba </div>
+							</div>
+							<!-- ***********FIM 2ª NOTICIA **********************************-->
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="images/esportes3.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Brasileiro que está na Alemanha vira opção para o ataque do Palmeiras</div>
+								<div class="noticiainfo">Em Porto Alegre 08/12/2018</div>
+							</div>
+							<!-- ***********FIM 3ª NOTICIA **********************************-->
+							<div class="noticiaitem">
+								<div class="noticiaimg">
+									<img src="images/esportes4.jpg" border="0" width="80" height="80">
+								</div>
+								<div class="noticiatitulo">Presidentes do River Plate, Boca Juniors e Conmebol jantam juntos em Madri</div>
+								<div class="noticiainfo">Do UOL, em São Paulo 08/12/2018</div>
+							</div>
+							<!-- ***********FIM 3ª NOTICIA **********************************-->
+						</div>
+						<div style="clear:both"></div> 
+					</div>
+				</div>
+			</div>
+			<div class="rightside">
+				<div class="widget">
+					<div class="widget_titulo">SOCIAL</div>
+					<div class="widget_conteudo">
+						<a href=""><img src="images/yt.png" border="0" width="26px" height="26px"></a>
+						<a href=""><img src="images/twt.png" border="0" width="26px" height="26px"></a>
+						<a href=""><img src="images/fcb.png" border="0" width="26px" height="26px"></a>
+						<a href=""><img src="images/gp.png" border="0" width="26px" height="26px"></a>
+						<a href=""><img src="images/rss.png" border="0" width="26px" height="26px"></a>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widget_titulo">ULTIMAS NOTICIAS</div>
+					<div class="widget_conteudo">
+						<div class="noticia_item">
+							<a href="#"><b> Circulação de Trens e liberada na marginal que cedeu em Rio de Janeiro.</b></a>
+						</div>
+						<div class="noticia_item">
+							<a href="#"><b> Gremio enfrenta chapecoense neste Domingo, jogo classico no Brasileirão.</b></a>
+						</div>
+						<div class="noticia_item">
+							<a href="#"><b> Paraguai troca chefes de polícia e isola traficante após confronto em presídio.</b></a>
+						</div>
+						<div class="noticia_item">
+							<a href="#"><b>Policia militar prende quadrilha com drogas e metralhadora alemã em morro no Rio de Janeiro.</b></a>
+						</div>
+						<div class="noticia_item">
+							<a href="#"> <b>As primeiras umagens do submarino San Juan a 907 metros de profundidade; Argentina diz nao ter como fazer o resgate.</b></a>
+						</div>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widget_titulo">PUBLICIDADE</div>
+					<div class="widget_conteudo">
+						<img src="images/fliperama.jpg" border="0" width="274">
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widget_titulo">ENCONTRE-NOS NO FACEBOOK</div>
+					<div class="widget_conteudo">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="274" height="120" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
